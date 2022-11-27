@@ -33,8 +33,8 @@ To locate your firmware files...
 4. After clicking the desired workflow run, you should be presented with a section at the bottom of the page called "Artifacts". This section contains the results of your build, in a file called "firmware.zip"
 5. Download the firmware zip archive and extract the two .uf2 files. They are named according to which side they need to be flashed to.
 6. Flash the firmware to your keyboard by double-clicking the reset button to put the it in bootloader mode. A window should pop up showing the contents of the storage on the keyboard. Drag and drop the correct .uf2 file into the window. When the upload is complete the window will close and the keyboard will exit bootloader mode.
-   a. For flashing UF2 config, usb-c connection is required. First keep wired disconnected, and press reset button for twice, once the blue lights blink, connect with usb-c. The drive is expected to show up.
-   b. Mac Ventula has a bug preventing flashing with Mac folder. Use cmd line instead.
-      % cp corneish_zen_v2_left-zmk.uf2 /Volumes/CORNEISHZEN/
+  * For flashing UF2 config, usb-c connection is required. First keep wired disconnected, and press reset button for twice, once the blue lights blink, connect with usb-c. The drive is expected to show up.
+  * Mac Ventula has a bug preventing flashing with Mac folder. Use cmd line instead.
+    % cp corneish_zen_v2_left-zmk.uf2 /Volumes/CORNEISHZEN/
 
 Your keyboard is now ready to use.
