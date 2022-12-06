@@ -36,7 +36,7 @@
 //                    | ALT | GUI |     |   |     | SPC | ESC |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7    &kp N8    &kp N9    &kp N0  &kp BSPC
-   &kp LCTRL  &trans       &kp trans    &kp trans    &kp trans    &kp trans      &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp SQT &kp RET
+   &kp LCTRL  &trans       &trans       &trans       &trans       &trans         &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp SQT &kp RET
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &kp PG_DN &kp PG_UP &kp QMARK &kp DQT &kp RSHFT
                           	            &kp LALT     &kp LGUI     &trans         &trans   &kp SPACE &kp ESC
                         >;
